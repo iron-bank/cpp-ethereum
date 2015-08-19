@@ -399,11 +399,12 @@ ColumnLayout {
 							blockModel.append(model.blocks[j])
 
 						ensureNotFuturetime.start()
+
 						takeCodeSnapshot()
 						takeTxSnaphot()
 						takeAccountsSnapshot()
 						takeContractsSnapShot()
-						blinkReasons = []
+						blinkReasons = []						
 						clientModel.setupScenario(model);						
 					}
 
